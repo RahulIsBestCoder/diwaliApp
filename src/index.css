@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+
+  /* color valraibles */
+  --primary-color: #3498db;       /* Main brand color */
+  --secondary-color: #2ecc71;     /* Accent or secondary color */
+  --background-color: #f5f5f5;    /* Background color */
+  --text-color: #333;             /* Default text color */
+  --heading-color: #2c3e50;       /* Color for headings */
+  --link-color: #2980b9;          /* Link color */
+  --link-hover-color: #1abc9c;    /* Link hover color */
+  --border-color: #e0e0e0;        /* Border color for elements */
+  --error-color: #e74c3c;         /* Error or danger color */
+  --success-color: #27ae60;       /* Success messages or elements */
+
+  /* typo variables */
+  --font-family-base: 'Arial', sans-serif;       /* Base font family */
+  --font-size-base: 16px;                       /* Base font size */
+  --font-size-sm: 14px;                         /* Small text size */
+  --font-size-lg: 18px;                         /* Large text size */
+  --font-weight-normal: 400;                    /* Regular font weight */
+  --font-weight-bold: 700;                      /* Bold font weight */
+  --line-height-base: 1.5;                      /* Line height */
+  --heading-font-family: 'Georgia', serif;      /* Heading font family */
+
+  /* space variable */
+  --spacing-xs: 4px;         /* Extra small spacing */
+  --spacing-sm: 8px;         /* Small spacing */
+  --spacing-md: 16px;        /* Medium spacing */
+  --spacing-lg: 32px;        /* Large spacing */
+  --spacing-xl: 64px;        /* Extra large spacing */
+  --container-padding: 15px; /* Container padding */
+
+  /* button variables */
+  --button-padding: 10px 20px;          /* Padding for buttons */
+  --button-border-radius: 5px;          /* Rounded corners for buttons */
+  --input-border-radius: 4px;           /* Input field border radius */
+  --input-padding: 8px 12px;            /* Input field padding */
+  --input-border-color: #dcdcdc;        /* Input border color */
+  --input-focus-border-color: #3498db;  /* Input border color when focused */
+
+  /* shadow alivation variables */
+  --box-shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);  /* Small shadow */
+  --box-shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Medium shadow */
+  --box-shadow-lg: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Large shadow */
+
+  /* z-index variable     */
+  --z-index-header: 1000;    /* Header or navigation z-index */
+  --z-index-modal: 1050;     /* Modal z-index */
+  --z-index-tooltip: 1100;   /* Tooltip z-index */
+  --z-index-dropdown: 999;   /* Dropdown z-index */
+  /* transtions varables */ 
+  --transition-speed-fast: 0.2s;    /* Fast transition speed */
+  --transition-speed-normal: 0.3s;  /* Normal transition speed */
+  --transition-speed-slow: 0.5s;    /* Slow transition speed */
+  --transition-ease: ease-in-out;   /* Transition easing function */
+
+}

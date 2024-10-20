@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5e1;
+    color: #444;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #ff9900;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('diwali-bg.jpg') center/cover no-repeat;
+    color: #271d1d;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #ffcc80;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .gallery .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 50px;
+  }
+  
+  .testimonials {
+    background-color: #ffe0b2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #ff9900;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  

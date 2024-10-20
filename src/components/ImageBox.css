@@ -1,0 +1,35 @@
+.image-box-large{
+  display: flex;
+  justify-content: center;
+    width: 100%;             /* Fixed width */
+    height: 50%;            /* Fixed height */
+    overflow: hidden;        /* Hide overflow if the image is larger */
+    border: 1px solid #ddd;  /* Optional: add a border */
+    border-radius: 5px;      /* Optional: add rounded corners */
+  }
+
+  .image-box-middium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;             /* Fixed width */
+    height: 280px;            /* Fixed height */
+    overflow: hidden;        /* Hide overflow if the image is larger */
+    border: 1px solid #ddd;  /* Optional: add a border */
+    border-radius: 5px;      /* Optional: add rounded corners */
+  }
+
+  .image-box-small{
+    width: 350px;             /* Fixed width */
+    height: 200px;            /* Fixed height */
+    overflow: hidden;        /* Hide overflow if the image is larger */
+    border: 1px solid #ddd;  /* Optional: add a border */
+    border-radius: 5px;      /* Optional: add rounded corners */
+  }
+  
+  #picture {
+    width: auto;             /* Make the image width 100% of the box */
+    height: auto;            /* Make the image height 100% of the box */
+    object-fit:contain;       /* Ensure the image covers the box */
+  }
+  
